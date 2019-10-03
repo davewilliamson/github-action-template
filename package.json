@@ -1,0 +1,33 @@
+{
+  "name": "github-action-template",
+  "version": "1.0.0",
+  "description": "A public template for github actions",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/ncc build index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davewilliamson/github-action-template.git"
+  },
+  "keywords": [],
+  "author": "Dave Williamson <dave@ukit.net> (https://github.com/davewilliamson)",
+  "license": "None",
+  "bugs": {
+    "url": "https://github.com/davewilliamson/github-action-template/issues"
+  },
+  "homepage": "https://github.com/davewilliamson/github-action-template#readme",
+  "dependencies": {
+    "@actions/core": "^1.1.3",
+    "@actions/github": "^1.1.0"
+  },
+  "devDependencies": {
+    "@zeit/ncc": "^0.20.5",
+    "eslint": "^6.5.1",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.15.1"
+  }
+}
